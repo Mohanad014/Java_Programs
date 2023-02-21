@@ -1,0 +1,20 @@
+import java.util.Scanner;  
+import java.lang.Math;  
+public class Main {
+  public static void main(String[] args) {
+   Scanner sc=new Scanner(System.in);
+   int a=sc.nextInt();
+   int x;
+   double y=0;
+    String s=String.valueOf(a);
+   int q=s.length();
+   while(a>0){
+   x=a%10;
+   double ss =(Math.pow(x,q));
+   y+=ss;
+   a=a/10;
+   }
+   int r=(int)y;
+   System.out.print(r);
+  }
+}
