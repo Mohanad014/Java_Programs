@@ -1,0 +1,10 @@
+import java.util.*;  
+public class Main {
+  public static void main(String[] args)
+{
+    int num = 8976655;
+    String temp = Integer.toString(num);
+    char [] numbers =temp.toCharArray();
+    System.out.print(Arrays.toString(numbers));
+    
+}} 
