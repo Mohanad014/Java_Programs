@@ -1,0 +1,19 @@
+import java.util.*;
+public class Main {
+  public static void main(String args[]){
+    Scanner sc=new Scanner(System.in);
+    int n=sc.nextInt();
+    int x,y,z;
+    int k;
+    int q=2;
+    String s=Integer.toString(n);
+    k=s.length();
+    if(k%2==0){
+      x=n%100;
+      y=n/100;
+      z=x+y;
+      double a=Math.pow(z,q);
+      int l=(int)a;
+       System.out.print(l);
+    }
+  }}
