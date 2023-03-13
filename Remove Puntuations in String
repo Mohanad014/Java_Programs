@@ -1,0 +1,23 @@
+public class Main   
+{    
+public static void main (String args[])   
+{    
+int count = 0;    
+String str = "He said, 'The mailman loves you.'";    
+String n="";
+for (int i = 0; i < str.length(); i++)   
+{    
+if(str.charAt(i) == '!' || str.charAt(i) == ',' || str.charAt(i) == ';' || str.charAt(i) == '.' ||  str.charAt(i) == '?' || str.charAt(i) == '-' ||    
+str.charAt(i) == '\'' || str.charAt(i) == '\"' || str.charAt(i) == ':')   
+  {
+      count++;
+  }
+   
+  else{
+      n=n+str.charAt(i);
+  }
+ 
+}    
+ System.out.println(n +" :" + "count="+count);
+}    
+}
