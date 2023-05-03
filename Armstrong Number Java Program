@@ -6,7 +6,7 @@ public class Main {
    int a=sc.nextInt();
    int x;
    double y=0;
-    String s=String.valueOf(a);
+    String s=String.valueOf(a); // String s=Interger.toString(a);
    int q=s.length();
    while(a>0){
    x=a%10;
