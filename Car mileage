@@ -1,0 +1,20 @@
+import java.util.*;
+public class Main {
+
+    public static void main(String[] args) {
+		//Your Code Here
+Scanner sc=new Scanner(System.in);
+String s[]=sc.nextLine().split(" ");
+float t=9999.99f;
+String s1=" ";
+for(int i=0;i<s.length;i++){
+    String next[]=s[i].split("@");
+    if(Float.parseFloat(next[1])<t)
+    {
+        t=Float.parseFloat(next[1]);
+        s1=next[0];
+    }
+}
+System.out.print(s1);
+	}
+}
