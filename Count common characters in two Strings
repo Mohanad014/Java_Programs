@@ -1,0 +1,34 @@
+import java.util.*;
+ public class Main{
+ public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        String s1=sc.nextLine();
+        String s2=sc.nextLine();
+        char c1[]=s1.toCharArray();
+        char c2[]=s2.toCharArray();
+        int n1 = c1.length;
+        int n2 = c2.length;
+        int x=0,t=0;
+        int count=0;
+        char k1[]= new char[n1];
+        char k2[]= new char[n2];
+        HashSet<Character> h1 = new HashSet<>(n1);
+        for (char x1 : c1)
+            h1.add(x1);
+            for(char x1:h1){
+                k1[x++]=x1;
+            }
+            HashSet<Character> h2 = new HashSet<>(n2);
+        for (char x2 : c2)
+            h2.add(x2);
+            for(char x2:h2){
+                k2[t++]=x2;
+            }
+            for(int i=0;i<n1;i++){
+                for(int j=0;j<n2;j++){
+                if(k1[i]==k2[j]){
+                    count++;
+                }}}
+ System.out.print(count);
+ }}
