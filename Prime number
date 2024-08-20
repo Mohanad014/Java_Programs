@@ -20,7 +20,6 @@ public class Main
 }
 
 // To print prime numbers till n
-
 import java.util.Scanner;
 public class Main
 {
