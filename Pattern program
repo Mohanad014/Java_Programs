@@ -12,7 +12,7 @@ public class Main {
                       System.out.println();
                   }}}
                   
-                  
+                
  // Pattern program using number
  
  import java.util.*;
