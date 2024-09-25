@@ -4,7 +4,7 @@ import java.util.*;
     {
         Scanner sc=new Scanner(System.in);
         String s1=sc.nextLine();
-        String s2=sc.nextLine();
+        String s2=sc.nextLine(); 
         char c1[]=s1.toCharArray();
         char c2[]=s2.toCharArray();
         int n1 = c1.length;
